@@ -1,12 +1,12 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark-mode.png" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/logo-light-mode.png" />
-  <img alt="Capsule" src="assets/logo-light-mode.png" width="70" valign="bottom" />
+  <source media="(prefers-color-scheme: dark)" srcset=".github/images/logo-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset=".github/images/logo-light.svg" />
+  <img alt="Capsule" src="assets/logo-light.png" width="30%"  />
 </picture>
 
-# `Capsule`
+---
 
 [![CI](https://img.shields.io/github/actions/workflow/status/capsulerun/capsule/ci.yml?branch=main&label=CI)](https://github.com/capsulerun/capsule/actions/workflows/ci.yml)
 
@@ -16,7 +16,6 @@
 
 ---
 
-## Overview
 
 ```Capsule``` is a runtime for executing untrusted code in isolated environments. Each task runs inside its own WebAssembly sandbox, providing:
 
